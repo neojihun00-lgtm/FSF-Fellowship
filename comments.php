@@ -56,6 +56,7 @@ Navbar
             <div>
           <img src="images/LGS.jpeg" class="logo-pill">
         </div>
+|
         <!-- Logo 2: Replace text with LGS logo image if you have it -->
         <div >
           <img src="images/FSF.jpeg" class="logo-pill">
@@ -563,7 +564,7 @@ Footer
 
             <div class="copyright text-center">
 
-              © 2026 Future Skills Fellowship Appreciation Website. All Rights Reserved
+              © 2026 Future Skills Fellowship Appreciation Website. All Rights Reserved.
 
 
                 <br>

@@ -117,15 +117,24 @@ h5 {
     font-weight: 700;
 
     color: var(--primary);
+    
 
 }
 
+.center 
+{
+    text-align: center;
+}
 p {
 
     font-size: 17px;
 
     color: var(--text);
+    
 
+}
+.p1 {
+    text-align: justify;
 }
 
 a {
@@ -244,7 +253,8 @@ NAVBAR
     color: #fff !important;
 
     letter-spacing: 1px;
-
+    
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 }
 
 .nav-link {
@@ -1136,6 +1146,7 @@ TIMELINE
     padding: 25px;
 
     box-shadow: var(--shadow);
+    text-align: left;
 
 }
 
@@ -1576,7 +1587,7 @@ footer p {
     font-size:15px;
 }
 
-/* Mobile */
+/* Mobile 
 
 @media (max-width:991px){
 
@@ -1605,7 +1616,7 @@ footer p {
     .footer-btn{
         margin-top:20px;
     }
-}
+}*/
 
 /*==================================================
             BACK TO TOP BUTTON
@@ -1889,267 +1900,218 @@ footer p {
         TABLETS
 ==============================*/
 
-@media (max-width:992px) {
+@media (max-width: 992px) {
 
-    .hero {
-
-        text-align: center;
-
-        padding-top: 140px;
-
-        min-height: auto;
-
-        padding-bottom: 100px;
-
-    }
-
-    .hero h1 {
-
-        font-size: 48px;
-
-    }
-
-    .hero p {
-
-        margin: auto;
-
-        margin-bottom: 35px;
-
-    }
-
-    .hero-image {
-
-        margin-top: 60px;
-
-        max-width: 450px;
-
-        margin-left: auto;
-
-        margin-right: auto;
-
-    }
-
-    .logo {
-
-        width: 80px;
-
-        height: 80px;
-
-    }
-
-    .timeline::before {
-
-        left: 25px;
-
-    }
-
-    .timeline-item {
-
-        width: 100%;
-
-        padding-left: 70px;
-
-        padding-right: 20px;
-
-        left: 0 !important;
-
-        text-align: left !important;
-
-        margin-bottom: 40px;
-
-    }
-
-    .timeline-dot {
-
-        left: 15px !important;
-
-        right: auto;
-
-    }
-
-    .section-title {
-
-        font-size: 36px;
-
-    }
-
+.hero{
+    padding-top:120px;
+    padding-bottom:70px;
+    text-align:center;
 }
 
+.hero h1{
+    font-size:42px;
+}
+
+.hero p{
+    font-size:18px;
+    width:90%;
+    margin:auto;
+}
+
+.hero-image{
+    max-width:380px;
+    width:100%;
+    margin:40px auto 0;
+}
+
+.section-title{
+    font-size:34px;
+}
+
+.logo{
+    width:70px;
+    height:70px;
+}
+
+.timeline::before{
+    left:20px;
+}
+
+.timeline-item{
+    width:100%;
+    padding-left:60px;
+    padding-right:10px;
+    left:0!important;
+}
+
+.timeline-dot{
+    left:10px!important;
+}
+}
 
 /*==============================
         MOBILE
 ==============================*/
 
-@media (max-width:768px) {
+@media (max-width:768px){
 
-    section {
-
-        padding: 80px 0;
-
-    }
-
-    .navbar {
-
-        padding: 14px 0;
-
-    }
-
-    .navbar-brand {
-
-        font-size: 20px;
-
-    }
-
-    .nav-link {
-
-        margin-left: 0;
-
-        padding: 12px 0;
-
-    }
-
-    .hero h1 {
-
-        font-size: 38px;
-
-        line-height: 1.3;
-
-    }
-
-    .hero p {
-
-        font-size: 17px;
-
-    }
-
-    .logo {
-
-        width: 65px;
-
-        height: 65px;
-
-    }
-
-    .btn {
-
-        width: 100%;
-
-        margin-bottom: 15px;
-
-    }
-
-    .mentor-card img {
-
-        height: 260px;
-
-    }
-
-    .gallery-card img {
-
-        height: 220px;
-
-    }
-
-    .cta-section h2 {
-
-        font-size: 32px;
-
-    }
-
-    .counter {
-
-        font-size: 40px;
-
-    }
-
-    footer {
-
-        text-align: center;
-
-    }
-
-    .footer-social {
-
-        justify-content: center;
-
-    }
-
+section{
+    padding:60px 0;
 }
 
+.navbar{
+    padding:10px 0;
+}
+
+.navbar-brand{
+    font-size:20px;
+}
+
+.nav-link{
+    margin-left:0;
+    text-align:center;
+    padding:10px;
+}
+
+.hero{
+    padding-top:100px;
+    padding-bottom:60px;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:32px;
+    line-height:1.3;
+}
+
+.hero p{
+    font-size:16px;
+    width:95%;
+    margin:20px auto;
+}
+
+.hero-image{
+    width:90%;
+    max-width:280px;
+    margin:30px auto 0;
+}
+
+.logo{
+    width:55px;
+    height:55px;
+}
+
+/* Buttons */
+.btn{
+    width:auto;
+    padding:10px 20px;
+    font-size:15px;
+    margin:8px;
+}
+
+/* Cards */
+
+.card,
+.mentor-card,
+.gallery-card{
+    padding:18px;
+    margin-bottom:20px;
+}
+
+.mentor-card img{
+    height:220px;
+    object-fit:cover;
+}
+
+.gallery-card img{
+    height:180px;
+    object-fit:cover;
+}
+
+.section-title{
+    font-size:28px;
+}
+
+.cta-section h2{
+    font-size:28px;
+}
+
+.counter{
+    font-size:30px;
+}
+
+footer{
+    text-align:center;
+}
+
+.footer-social{
+    justify-content:center;
+}
+}
 
 /*==============================
         SMALL MOBILE
 ==============================*/
 
-@media (max-width:576px) {
+@media (max-width:576px){
 
-    .hero {
-
-        padding-top: 120px;
-
-    }
-
-    .hero h1 {
-
-        font-size: 30px;
-
-    }
-
-    .hero p {
-
-        font-size: 16px;
-
-    }
-
-    .section-title {
-
-        font-size: 30px;
-
-    }
-
-    .card {
-
-        padding: 25px;
-
-    }
-
-    .logo {
-
-        width: 55px;
-
-        height: 55px;
-
-    }
-
-    .image-placeholder {
-
-        width: 140px;
-
-        height: 140px;
-
-    }
-
-    .image-placeholder i {
-
-        font-size: 32px;
-
-    }
-
-    .gallery-card img {
-
-        height: 200px;
-
-    }
-
-    .counter {
-
-        font-size: 34px;
-
-    }
-
+.hero{
+    padding-top:90px;
 }
 
+.hero h1{
+    font-size:26px;
+}
 
+.hero p{
+    font-size:15px;
+}
+
+.section-title{
+    font-size:24px;
+}
+
+.hero-image{
+    max-width:220px;
+}
+
+.logo{
+    width:45px;
+    height:45px;
+}
+
+.btn{
+    padding:8px 18px;
+    font-size:14px;
+}
+
+.card,
+.mentor-card,
+.gallery-card{
+    padding:15px;
+}
+
+.mentor-card img{
+    height:180px;
+}
+
+.gallery-card img{
+    height:150px;
+}
+
+.image-placeholder{
+    width:120px;
+    height:120px;
+}
+
+.image-placeholder i{
+    font-size:26px;
+}
+
+.counter{
+    font-size:26px;
+}
+}
 /*==================================================
             LOADER
 ==================================================*/
@@ -2660,4 +2622,7 @@ RESPONSIVE
     width:100%;
 }
 
+}
+.h5 {
+    text-align: left;
 }
