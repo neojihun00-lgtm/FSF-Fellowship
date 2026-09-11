@@ -224,9 +224,9 @@ body::after {
 NAVBAR
 =========================*/
 
-.navbar {
+/*.navbar {
 
-    /*background: rgba(15, 23, 42, .75);*/background: #071536;
+    background: #071536;
 
     backdrop-filter: blur(18px);
 
@@ -240,7 +240,7 @@ NAVBAR
 
     padding: 12px 0;
 
-    /*background: #0F172A;*/background: #071536;
+    background: #071536;
 
 }
 
@@ -299,9 +299,48 @@ NAVBAR
 
     color: var(--accent) !important;
 
+}*/
+.navbar {
+    background: #071536;
 }
 
+.navbar-top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 0;
+}
+
+.logo-pill {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    border-radius: 50%;
+    flex-shrink: 0;
+    gap: 5px;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff !important;
+    letter-spacing: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.navbar-toggler {
+    flex-shrink: 0;
+    margin-left: 15px;
+}
 /*=========================
 BUTTON
 =========================*/
